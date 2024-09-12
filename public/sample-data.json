@@ -1,0 +1,44 @@
+{
+  "title": "Stage",
+  "last_modified": "12/09/2024, 17:00:00",
+  "containers": [
+    {
+      "id": 1,
+      "name": "Todo",
+      "is_editing_container": false,
+      "is_adding_card": false
+    },
+    {
+      "id": 2,
+      "name": "In Progress",
+      "is_editing_container": false,
+      "is_adding_card": false
+    },
+    {
+      "id": 3,
+      "name": "Done",
+      "is_editing_container": false,
+      "is_adding_card": false
+    }
+  ],
+  "cards": [
+    {
+      "id": 1,
+      "id_container": 1,
+      "title": "Task1",
+      "content": "This is task1.",
+      "manager": "John Doe",
+      "performer": "Kris",
+      "is_editing_card": false
+    },
+    {
+      "id": 2,
+      "id_container": 1,
+      "title": "Task2",
+      "content": "This is task2.",
+      "manager": "David",
+      "performer": "Jane",
+      "is_editing_card": false
+    }
+  ]
+}
